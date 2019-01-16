@@ -1,0 +1,29 @@
+//This program was written by Mohammadreza Rashidi.
+
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+	int a,b,c,result;
+		cout<<"This is a program to show the largest number among the three numbers"<<endl;
+		cout<<"please inter three number :"<<endl;
+		cout<<"\nnumber 1 : ";
+		cin>>a;
+		cout<<"\nnumber 2 : ";
+		cin>>b;
+		cout<<"\nnumber 3 : ";
+		cin>>c;
+			result=a;
+			if (result<b)
+			result=b;
+			if (result<c)
+			result=c;
+		cout<<"\n\n\tresult is : "<<result;
+		getch();
+}
+
+
+
