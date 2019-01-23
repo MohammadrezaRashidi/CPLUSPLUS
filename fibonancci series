@@ -1,0 +1,27 @@
+// This program is written by Mohammadreza Rashidi.
+// This program uses white loop for fibonacci series.
+
+#include "stdafx.h"
+#include "iostream"
+#include "limits.h"
+#include "conio.h"
+
+using namespace std;
+
+
+int main()
+{
+	unsigned long next = 0, last = 1;
+	while (next<ULONG_MAX/2)
+	{
+		cout << last << endl;
+		unsigned long sum = next + last;
+		next = last;
+		last = sum;
+
+	}
+
+	getch();
+    return 0;
+}
+
