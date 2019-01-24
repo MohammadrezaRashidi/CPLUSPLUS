@@ -1,0 +1,23 @@
+//This program is wrriten by Mohammadreza Rashidi.
+//This program calculates factorial of an integer numbers.
+
+
+#include "stdafx.h"
+#include "iostream"
+#include "conio.h"
+
+using namespace std;
+
+int main()
+{
+	short n;
+	cout << "please enter an integer number : ";
+	cin >> n;
+	unsigned int result = 1;
+	for (int fact = n; fact > 0; fact--)
+		result *= fact;
+	cout << "\nThe factorial of " << n << " is = " << result;
+
+	getch();
+    return 0;
+}
